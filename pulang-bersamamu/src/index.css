@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;800&family=Quicksand:wght@400;500;600;700&family=Caveat:wght@400;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  @apply antialiased;
+}
+
+body {
+  @apply bg-cream font-body text-brown;
+  font-size: 17px;
+  line-height: 1.7;
+  font-weight: 500;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  @apply font-display font-bold;
+}
+
+.accent-text {
+  @apply font-accent;
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Polaroid effect */
+.polaroid {
+  @apply bg-cream p-4 shadow-soft rounded-lg;
+  transform: rotate(-1deg);
+  transition: transform 0.3s ease;
+}
+
+.polaroid:hover {
+  transform: rotate(0deg) translateY(-4px);
+  @apply shadow-soft-lg;
+}
+
+.polaroid img {
+  @apply w-full h-auto rounded-lg;
+}
+
+/* Pill button styles */
+.btn-pill {
+  @apply px-6 py-3 rounded-full font-semibold transition-all duration-300 inline-block;
+}
+
+.btn-primary {
+  @apply btn-pill bg-rose text-brown hover:shadow-lift hover:scale-105;
+}
+
+.btn-secondary {
+  @apply btn-pill bg-sage text-brown hover:shadow-lift hover:scale-105;
+}
+
+.btn-tertiary {
+  @apply btn-pill border-2 border-brown text-brown hover:bg-brown hover:text-cream transition-colors;
+}
+
+/* Card base styles */
+.card {
+  @apply bg-white rounded-xl shadow-soft p-6 transition-all duration-300;
+}
+
+.card:hover {
+  @apply shadow-soft-lg;
+}
+
+/* Gradient backgrounds */
+.gradient-rose {
+  @apply bg-gradient-to-br from-rose to-rose/50;
+}
+
+.gradient-sage {
+  @apply bg-gradient-to-br from-sage to-sage/50;
+}
+
+.gradient-lavender {
+  @apply bg-gradient-to-br from-lavender to-lavender/50;
+}
+
+/* Decorative sparkle */
+.sparkle {
+  @apply inline-block animate-sparkle text-rose;
+}
+
+/* Text gradient */
+.text-gradient {
+  @apply bg-gradient-to-r from-rose via-mauve to-lavender bg-clip-text text-transparent;
+}
+
+/* Smooth transitions */
+.smooth {
+  @apply transition-all duration-300 ease-out;
+}
+
+/* Responsive utilities */
+@media (max-width: 640px) {
+  .btn-pill {
+    @apply px-4 py-2 text-sm;
+  }
+  
+  .card {
+    @apply p-4;
+  }
+}
