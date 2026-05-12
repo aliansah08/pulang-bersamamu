@@ -24,7 +24,8 @@ const Gallery = () => {
       'col-span-1 row-span-2', // Medium tall
       'col-span-1' // Small
     ]
-    return pattern[index % pattern.length]
+    const isMobile = typeof window !== 'undefined' && window.innerWidth < 768
+    return isMobile ? '' : pattern[index % pattern.length]
   }
 
   // Check if item is video
@@ -52,7 +53,7 @@ const Gallery = () => {
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, margin: '-100px' }}
-          className="grid grid-cols-1 md:grid-cols-4 gap-4 auto-rows-max"
+          className="grid grid-cols-2 md:grid-cols-4 gap-3 md:gap-4 auto-rows-max"
         >
           {galleryImages.map((img, idx) => (
             <motion.div

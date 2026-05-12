@@ -64,9 +64,10 @@ function App() {
           <div className="md:hidden">
             <button
               onClick={() => scrollToSection('memories')}
-              className="text-brown hover:text-rose transition-colors font-semibold text-sm"
+              className="min-w-[50px] min-h-[44px] px-3 text-brown hover:text-rose transition-colors font-semibold text-sm flex items-center gap-1 rounded-lg hover:bg-rose/10"
             >
-              Menu
+              <span className="text-lg">☰</span>
+              <span className="hidden">Menu</span>
             </button>
           </div>
         </div>

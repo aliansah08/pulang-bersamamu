@@ -12,7 +12,7 @@ export const memoryLaneData = [
     id: 2,
     title: 'Photobox Session',
     date: '15 April 2026',
-    description: 'Sesi foto yang tak terlupakan. Tawa dan canda kita terefkam dalam setiap Potret.',
+    description: 'Sesi foto yang tak terlupakan. Tawa dan canda kita terekam dalam setiap Potret.',
     image: '/images/memory-3.jpg',
     emoji: '📸'
   },
@@ -22,6 +22,14 @@ export const memoryLaneData = [
     date: '17 April 2026',
     description: 'Hari itu, langit dan senja bekerja sama menciptakan kenangan.',
     image: '/images/memory-5.jpg',
+    emoji: '📸'
+  },
+  {
+    id: 2,
+    title: 'First Keychain',
+    date: '19 April 2026',
+    description: 'Hari itu, langit dan senja bekerja sama menciptakan kenangan.',
+    image: '/images/memory-6.jpg',
     emoji: '📸'
   },
   {
@@ -181,8 +189,8 @@ export const favoritesData = {
     },
     {
       id: 2,
-      activity: 'Movie Night',
-      reason: 'Bersandar dan nonton bareng',
+      activity: 'Video Call',
+      reason: 'Rutinitas setiap sebelum tidur',
       emoji: '🎬'
     },
     {

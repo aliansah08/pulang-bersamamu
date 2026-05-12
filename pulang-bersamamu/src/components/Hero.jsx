@@ -23,19 +23,23 @@ const Hero = ({ scrollToSection }) => {
             variants={fadeInTopVariants}
             className="relative order-2 lg:order-1"
           >
-            <div className="relative w-full h-[350px] md:h-[450px]">
-              <div className="absolute top-0 left-0 w-48 md:w-64 h-48 md:h-64 rounded-3xl overflow-hidden shadow-lg" style={{ transform: 'rotate(-3deg)' }}>
+            <div className="grid grid-cols-2 gap-3 w-full h-[350px] md:h-[450px] lg:relative lg:w-auto lg:h-[450px] lg:grid-cols-2 lg:gap-0 lg:block">
+              <div className="w-full h-full rounded-2xl overflow-hidden shadow-lg hidden lg:block lg:absolute lg:top-0 lg:left-0 lg:w-48 lg:h-48 lg:rotate-[-3deg]">
                 <img src={heroCollageImages[0]} alt="Memory 1" className="w-full h-full object-cover" />
               </div>
-              <div className="absolute top-0 right-8 md:right-16 w-32 md:w-44 h-40 md:h-52 rounded-3xl overflow-hidden shadow-lg" style={{ transform: 'rotate(5deg)' }}>
+              <div className="w-full h-full rounded-2xl overflow-hidden shadow-lg hidden lg:block lg:absolute lg:top-0 lg:right-16 lg:w-44 lg:h-52 lg:rotate-[5deg]">
                 <img src={heroCollageImages[1]} alt="Memory 2" className="w-full h-full object-cover" />
               </div>
-              <div className="absolute bottom-16 left-4 w-36 md:w-48 h-44 md:h-56 rounded-3xl overflow-hidden shadow-lg" style={{ transform: 'rotate(2deg)' }}>
+              <div className="w-full h-full rounded-2xl overflow-hidden shadow-lg hidden lg:block lg:absolute lg:bottom-16 lg:left-4 lg:w-48 lg:h-56 lg:rotate-[2deg]">
                 <img src={heroCollageImages[2]} alt="Memory 3" className="w-full h-full object-cover" />
               </div>
-              <div className="absolute bottom-8 right-4 md:right-8 w-40 md:w-52 h-48 md:h-60 rounded-3xl overflow-hidden shadow-lg" style={{ transform: 'rotate(-5deg)' }}>
+              <div className="w-full h-full rounded-2xl overflow-hidden shadow-lg hidden lg:block lg:absolute lg:bottom-8 lg:right-8 lg:w-52 lg:h-60 lg:rotate-[-5deg]">
                 <img src={heroCollageImages[3]} alt="Memory 4" className="w-full h-full object-cover" />
               </div>
+              <img src={heroCollageImages[0]} alt="Memory 1" className="w-full h-full object-cover rounded-2xl shadow-lg lg:hidden" />
+              <img src={heroCollageImages[1]} alt="Memory 2" className="w-full h-full object-cover rounded-2xl shadow-lg lg:hidden" />
+              <img src={heroCollageImages[2]} alt="Memory 3" className="w-full h-full object-cover rounded-2xl shadow-lg lg:hidden" />
+              <img src={heroCollageImages[3]} alt="Memory 4" className="w-full h-full object-cover rounded-2xl shadow-lg lg:hidden" />
             </div>
           </motion.div>
 
