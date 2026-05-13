@@ -54,11 +54,10 @@ const Favorites = () => {
                 onClick={() => setActiveTab(tab.id)}
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
-                className={`flex items-center gap-2 px-6 py-3 rounded-full font-semibold transition-all duration-300 ${
-                  activeTab === tab.id
-                    ? `bg-${tab.color} text-brown shadow-soft-lg`
-                    : 'bg-white text-brown border-2 border-brown/20 hover:border-brown/40'
-                }`}
+                className={`flex items-center gap-2 px-6 py-3 rounded-full font-semibold transition-all duration-300 ${activeTab === tab.id
+                  ? `bg-${tab.color} text-brown shadow-soft-lg`
+                  : 'bg-white text-brown border-2 border-brown/20 hover:border-brown/40'
+                  }`}
               >
                 <Icon size={18} />
                 {tab.label}
@@ -147,14 +146,14 @@ const Favorites = () => {
               🎵 Playlist favorit kita
             </p>
             <div className="rounded-xl overflow-hidden shadow-soft-lg">
-              <iframe 
+              <iframe
                 style={{ borderRadius: '12px' }}
-                src="https://open.spotify.com/embed/playlist/05PDNaGt3xa7Ig2eGTw0uv?utm_source=generator&theme=0&si=6e6e93bd444c4920" 
-                width="100%" 
-                height="352" 
-                frameBorder="0" 
-                allowFullScreen 
-                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
+                src="https://open.spotify.com/embed/playlist/05PDNaGt3xa7Ig2eGTw0uv?utm_source=generator&theme=0&si=6e6e93bd444c4920"
+                width="100%"
+                height="352"
+                frameBorder="0"
+                allowFullScreen
+                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
                 loading="lazy"
               />
             </div>
