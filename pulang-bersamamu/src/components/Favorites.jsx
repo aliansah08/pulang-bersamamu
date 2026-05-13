@@ -140,16 +140,23 @@ const Favorites = () => {
           </motion.div>
         </motion.div>
 
-        {/* Spotify Embed Placeholder */}
+        {/* Spotify Embed */}
         {activeTab === 'songs' && (
           <ScrollReveal className="text-center mt-16 pt-8 border-t-2 border-brown/10">
             <p className="text-brown/60 font-body text-sm mb-4">
-              🎵 Tambahkan playlist Spotify dengan mengganti placeholder di bawah
+              🎵 Playlist favorit kita
             </p>
-            <div className="bg-white/50 border-2 border-dashed border-rose/30 rounded-xl p-12 text-center text-brown/40">
-              <p className="font-body">
-                {'<iframe src="spotify_playlist_url" />'} 
-              </p>
+            <div className="rounded-xl overflow-hidden shadow-soft-lg">
+              <iframe 
+                style={{ borderRadius: '12px' }}
+                src="https://open.spotify.com/embed/playlist/05PDNaGt3xa7Ig2eGTw0uv?utm_source=generator&theme=0&si=6e6e93bd444c4920" 
+                width="100%" 
+                height="352" 
+                frameBorder="0" 
+                allowFullScreen 
+                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
+                loading="lazy"
+              />
             </div>
           </ScrollReveal>
         )}
