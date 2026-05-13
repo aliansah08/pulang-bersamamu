@@ -137,6 +137,17 @@ const Favorites = () => {
               </motion.div>
             ))}
           </motion.div>
+          
+          {activeTab === 'activities' && (
+            <motion.p 
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              transition={{ delay: 0.5 }}
+              className="text-center mt-8 text-brown/50 font-body italic"
+            >
+              Sedikit demi sedikit, ternyata jadi banyak cerita dan banyak jejak tentang kita.
+            </motion.p>
+          )}
         </motion.div>
 
         {/* Spotify Embed */}

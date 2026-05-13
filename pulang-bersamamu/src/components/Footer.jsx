@@ -52,13 +52,8 @@ const Footer = ({ scrollToTop }) => {
                 </a>
               </li>
               <li>
-                <a href="#letters" className="hover:text-rose transition-colors">
-                  Surat
-                </a>
-              </li>
-              <li>
-                <a href="#future" className="hover:text-rose transition-colors">
-                  Mimpi
+                <a href="#favorites" className="hover:text-rose transition-colors">
+                  Playlist
                 </a>
               </li>
             </ul>

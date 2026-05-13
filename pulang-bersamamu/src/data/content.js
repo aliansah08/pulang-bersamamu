@@ -28,9 +28,9 @@ export const memoryLaneData = [
     id: 2,
     title: 'First Keychain',
     date: '19 April 2026',
-    description: 'Hari itu, langit dan senja bekerja sama menciptakan kenangan.',
+    description: 'Kenangan pertama kita yang ter-abadikan. Gantungan kunci pertama yang kita beli bareng, tanda perjalanan kita dimulai.',
     image: '/images/memory-6.jpg',
-    emoji: '📸'
+    emoji: '🔑'
   },
   {
     id: 3,
@@ -201,27 +201,75 @@ export const favoritesData = {
   activities: [
     {
       id: 1,
-      activity: 'Quality Time',
-      reason: 'Waktu yang berharga bersama',
-      emoji: '💑'
+      activity: 'Pantai Suru Manis',
+      reason: 'Pantai favorit kita',
+      emoji: '🏖️'
     },
     {
       id: 2,
-      activity: 'Video Call',
-      reason: 'Rutinitas setiap sebelum tidur',
-      emoji: '🎬'
+      activity: 'Kaliandra Baturaden',
+      reason: 'Perjalanan ke Baturaden',
+      emoji: '🌲'
     },
     {
       id: 3,
-      activity: 'Jalan-Jalan',
-      reason: 'Menjelajahi dunia bersama',
-      emoji: '🚶'
+      activity: 'Nihloh Caffe',
+      reason: 'Ngopi bareng di cafe hits',
+      emoji: '☕'
     },
     {
       id: 4,
-      activity: 'Nonton Film',
-      reason: 'Menonton bareng sampai ketiduran',
-      emoji: '🎬'
+      activity: 'Photobooth Et al Caffe',
+      reason: 'Potret pertama kita',
+      emoji: '📸'
+    },
+    {
+      id: 5,
+      activity: 'Misoa',
+      reason: 'Makan-makan di Misoa',
+      emoji: '🍜'
+    },
+    {
+      id: 6,
+      activity: 'Mezzo Beach Club',
+      reason: ' beach club favorit',
+      emoji: '🌅'
+    },
+    {
+      id: 7,
+      activity: 'Nonton di CGV',
+      reason: 'Nonton bioskop bareng',
+      emoji: '🎥'
+    },
+    {
+      id: 8,
+      activity: 'Kedai Selasar',
+      reason: 'Hangout di Selasar',
+      emoji: '🍵'
+    },
+    {
+      id: 9,
+      activity: 'Milos Caffe',
+      reason: 'Cafe favorit kita',
+      emoji: '🥐'
+    },
+    {
+      id: 10,
+      activity: 'Starview',
+      reason: 'View yang paling spectacular',
+      emoji: '🌟'
+    },
+    {
+      id: 11,
+      activity: 'Curug Jenggala',
+      reason: 'Main ke air terjun',
+      emoji: '💧'
+    },
+    {
+      id: 12,
+      activity: 'The Soeds Coffee',
+      reason: 'Coffee time bareng',
+      emoji: '☕'
     }
   ]
 }
