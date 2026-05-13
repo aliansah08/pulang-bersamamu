@@ -219,9 +219,9 @@ export const favoritesData = {
     },
     {
       id: 4,
-      activity: 'Simply Together',
-      reason: 'Hanya berbaring bersama',
-      emoji: '😌'
+      activity: 'Nonton Film',
+      reason: 'Menonton bareng sampai ketiduran',
+      emoji: '🎬'
     }
   ]
 }
