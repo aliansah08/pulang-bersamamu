@@ -208,7 +208,7 @@ export const favoritesData = {
     {
       id: 2,
       activity: 'Kaliandra Baturaden',
-      reason: 'Perjalanan ke Baturaden',
+      reason: 'tempat dimana cerita kita mulai terasa nyata.',
       emoji: '🌲'
     },
     {
@@ -232,41 +232,47 @@ export const favoritesData = {
     {
       id: 6,
       activity: 'Mezzo Beach Club',
-      reason: ' beach club favorit',
+      reason: ' Menikmati sunset bareng',
       emoji: '🌅'
     },
     {
       id: 7,
+      activity: 'Kopi Pagi di Radio Dalam COffee',
+      reason: ' Kopi pagi dan menikmati pagi hari bersamma',
+      emoji: '🍵'
+    },
+    {
+      id: 8,
       activity: 'Nonton di CGV',
       reason: 'Nonton bioskop bareng',
       emoji: '🎥'
     },
     {
-      id: 8,
+      id: 9,
       activity: 'Kedai Selasar',
-      reason: 'Hangout di Selasar',
+      reason: 'ga lama, tapi cukup buat jadi cerita.',
       emoji: '🍵'
     },
     {
-      id: 9,
-      activity: 'Milos Caffe',
-      reason: 'Cafe favorit kita',
+      id: 10,
+      activity: 'Milos Coffee',
+      reason: 'Hari biasa, tapi serunya masih teringat',
       emoji: '🥐'
     },
     {
-      id: 10,
+      id: 11,
       activity: 'Starview',
-      reason: 'View yang paling spectacular',
+      reason: 'View city light yang paling spectacular',
       emoji: '🌟'
     },
     {
-      id: 11,
+      id: 12,
       activity: 'Curug Jenggala',
       reason: 'Main ke air terjun',
       emoji: '💧'
     },
     {
-      id: 12,
+      id: 13,
       activity: 'The Soeds Coffee',
       reason: 'Coffee time bareng',
       emoji: '☕'
