@@ -137,21 +137,39 @@ export const favoritesData = {
   songs: [
     {
       id: 1,
-      title: 'Lagu Kita',
-      artist: 'Artis Favorit',
+      title: 'Shape of My Heart',
+      artist: 'Backstreet Boys',
       reason: 'Lagu yang mengingatkanku padamu.'
     },
     {
       id: 2,
-      title: 'Laguku Untukmu',
-      artist: 'Artis Favorit',
+      title: 'Studio54',
+      artist: 'Hyde',
       reason: 'Karena kamu membuat segalanya terasa sempurna.'
     },
     {
       id: 3,
-      title: 'Kiss Me',
-      artist: 'Sixpence None the Richer',
-      reason: 'Klasik yang selalu mengingatkan kita.'
+      title: 'Risk It All',
+      artist: 'Huge',
+      reason: 'Lagu yang selalu kita dengarkan bersama.'
+    },
+    {
+      id: 4,
+      title: 'Drop Dead',
+      artist: 'Felix Jaehn',
+      reason: 'Suaranya yang membuat kita happy.'
+    },
+    {
+      id: 5,
+      title: 'Berapa Kali Kita Saling Memaafkan',
+      artist: 'Hivi!',
+      reason: 'Lagu Indonesia favorit kita.'
+    },
+    {
+      id: 6,
+      title: 'Beauty and a Beat',
+      artist: 'Justin Bieber ft. Nicki Minaj',
+      reason: 'Always makes us dance.'
     }
   ],
   foods: [
