@@ -22,7 +22,7 @@ export const memoryLaneData = [
     date: '17 April 2026',
     description: 'Hari itu, langit dan senja bekerja sama menciptakan kenangan.',
     image: '/images/memory-5.jpg',
-    emoji: '📸'
+    emoji: '🌅'
   },
   {
     id: 2,
@@ -38,10 +38,29 @@ export const memoryLaneData = [
     date: '6 Maret 2026',
     description: 'Curug Jenggala tentang tawa, perjalanan, dan kebersamaan.',
     image: '/images/memory-2.jpg',
-    emoji: '✨'
+    emoji: '🌊'
   },
+
   {
     id: 4,
+    title: 'Curug Ramun',
+    date: '21 Maret 2026',
+    description: 'Sejuknya Curug Ramun, tawa yang tak henti-hentinya, dan kebersamaan yang membuat hari itu terasa begitu spesial.',
+    image: '/images/memory-8.jpg',
+    emoji: '🌊'
+  },
+
+  {
+    id: 5,
+    title: 'Alas Pitu',
+    date: '6 Juni 2026',
+    description: 'Tertawa bersama di teater, menantang keberanian di rumah hantu, dan menikmati setiap sudut Alas Pitu. Hari yang tak ingin kulupakan.',
+    image: '/images/memory-7.jpg',
+    emoji: '🌟'
+  },
+
+  {
+    id: 6,
     title: 'Our Journey',
     date: 'Forever & Always',
     description: 'Setiap momen bersamamu adalah hadiah terindah.',
@@ -101,7 +120,51 @@ export const galleryImages = [
     image: '/images/gallery-8.jpg',
     title: 'RDK',
     date: '18 April 2026'
-  }
+  },
+
+  {
+    id: 9,
+    image: '/images/graduation.jpg',
+    title: 'Graduation Day',
+    date: '3 Juni 2026'
+  },
+
+  {
+    id: 9,
+    image: '/images/gallery-9.jpg',
+    title: 'Couple',
+    date: '6 Juni 2026'
+  },
+
+  {
+    id: 10,
+    image: '/images/gallery-10.jpg',
+    title: 'Alas Pitu',
+    date: '6 Juni 2026'
+  },
+
+  {
+    id: 11,
+    image: '/images/gallery-11.jpg',
+    title: 'Alas Pitu',
+    date: '6 Juni 2026'
+  },
+
+  {
+    id: 11,
+    image: '/images/gallery-12.jpg',
+    title: 'Curug Ramun',
+    date: '21 Maret 2026'
+  },
+
+  {
+    id: 13,
+    image: '/images/gallery-13.jpg',
+    title: 'Curug Ramun',
+    date: '21 Maret 2026'
+  },
+
+
 ]
 
 // Letters
