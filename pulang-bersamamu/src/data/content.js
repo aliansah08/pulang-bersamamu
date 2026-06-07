@@ -339,6 +339,19 @@ export const favoritesData = {
       activity: 'The Soeds Coffee',
       reason: 'Coffee time bareng',
       emoji: '☕'
+    },
+
+    {
+      id: 14,
+      activity: 'Curug Ramun',
+      reason: 'Bermain air di curug',
+      emoji: '🌊'
+    },
+    {
+      id: 15,
+      activity: 'Alas Pitu',
+      reason: 'Nonton teather, main kerumah hantu, mini zoo, memberi makan burung unta dan berkeliling di alas pitu.Seru banget!',
+      emoji: '🌲'
     }
   ]
 }
